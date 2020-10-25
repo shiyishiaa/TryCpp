@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/native-lib.cpp
+jni.h
+-
+string
+-
+

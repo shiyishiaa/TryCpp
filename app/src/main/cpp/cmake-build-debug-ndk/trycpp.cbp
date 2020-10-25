@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="trycpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\AppData\;CMake Files\..\..\..\..\..\..\..\..\AppData\Local\;CMake Files\..\..\..\..\..\..\..\..\AppData\Local\Android\;CMake Files\..\..\..\..\..\..\..\..\AppData\Local\Android\android-ndk-r21d\;CMake Files\..\..\..\..\..\..\..\..\AppData\Local\Android\android-ndk-r21d\build\;CMake Files\..\..\..\..\..\..\..\..\AppData\Local\Android\android-ndk-r21d\build\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="native-lib">
+				<Option output="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/libnative-lib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\7.3.0\include\c++"/>
+					<Add directory="C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\7.3.0\include\c++\x86_64-w64-mingw32"/>
+					<Add directory="C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\7.3.0\include\c++\backward"/>
+					<Add directory="D:\Users\Administrator\AppData\Local\Android\android-ndk-r21d\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.8\include"/>
+					<Add directory="C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 native-lib"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="native-lib/fast">
+				<Option output="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/libnative-lib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\7.3.0\include\c++"/>
+					<Add directory="C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\7.3.0\include\c++\x86_64-w64-mingw32"/>
+					<Add directory="C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\7.3.0\include\c++\backward"/>
+					<Add directory="D:\Users\Administrator\AppData\Local\Android\android-ndk-r21d\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\9.0.8\include"/>
+					<Add directory="C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 native-lib/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/Point.cpp">
+			<Option target="native-lib"/>
+		</Unit>
+		<Unit filename="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/Point.h">
+			<Option target="native-lib"/>
+		</Unit>
+		<Unit filename="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/Triangle.cpp">
+			<Option target="native-lib"/>
+		</Unit>
+		<Unit filename="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/Triangle.h">
+			<Option target="native-lib"/>
+		</Unit>
+		<Unit filename="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/native-lib.cpp">
+			<Option target="native-lib"/>
+		</Unit>
+		<Unit filename="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/../../../../../../../../AppData/Local/Android/android-ndk-r21d/build/cmake/android.toolchain.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\AppData\Local\Android\android-ndk-r21d\build\cmake\"/>
+		</Unit>
+		<Unit filename="D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/../../../../../../../../AppData/Local/Android/android-ndk-r21d/build/cmake/platforms.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\AppData\Local\Android\android-ndk-r21d\build\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

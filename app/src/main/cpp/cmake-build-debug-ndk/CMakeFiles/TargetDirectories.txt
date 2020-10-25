@@ -1,0 +1,3 @@
+D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/CMakeFiles/native-lib.dir
+D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/CMakeFiles/edit_cache.dir
+D:/Users/Administrator/Documents/Codes/StudioProjects/TryCpp/app/src/main/cpp/cmake-build-debug-ndk/CMakeFiles/rebuild_cache.dir
